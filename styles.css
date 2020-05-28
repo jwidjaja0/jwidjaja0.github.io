@@ -1,0 +1,35 @@
+h1{
+    /* color: red; */
+    color: black;
+    font-size: 28px;
+}
+
+div {
+    align-items: center;
+    
+  }
+
+a{
+    font-size: 18px;
+    color: rgb(129, 129, 129);
+}
+
+a:hover{
+    color: rgb(66, 66, 66);
+    text-decoration: none;
+}
+
+.topNav{
+    background-color: rgb(216, 216, 216);
+}
+
+.headerTop{
+    text-align: center;
+}
+
+.icons{
+    padding-left: auto;
+    padding-right: 0;
+    border: red 12px solid;
+}
+
