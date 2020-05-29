@@ -4,6 +4,10 @@ h1{
     font-size: 28px;
 }
 
+h2{
+    margin-bottom: 45px;
+}
+
 div {
     align-items: center;
     
@@ -32,4 +36,10 @@ a:hover{
     padding-right: 0;
     border: red 12px solid;
 }
+
+.projectImage{
+    width: 100%;
+    margin-bottom: 25px;
+}
+
 
