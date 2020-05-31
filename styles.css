@@ -8,11 +8,6 @@ h2{
     margin-bottom: 45px;
 }
 
-div {
-    align-items: center;
-    
-  }
-
 a{
     font-size: 18px;
     color: rgb(129, 129, 129);
@@ -25,16 +20,16 @@ a:hover{
 
 .topNav{
     background-color: rgb(216, 216, 216);
+    margin: auto;
 }
 
-.headerTop{
-    text-align: center;
+.childNav{
+    margin: auto;
 }
+
 
 .icons{
-    padding-left: auto;
-    padding-right: 0;
-    border: red 12px solid;
+    text-align: center;
 }
 
 .projectImage{
@@ -49,14 +44,23 @@ a:hover{
     margin: auto;
 }
 
-.toCenter{
-    margin: auto;
-}
-
 .testing{
     border-color: black;
     border-radius: 2px;
     border-style: solid;
 }
+
+.carousel {
+    height: 620px;
+}
+
+.descript{
+    position: relative;
+    top:-5px;
+}
+
+/* div{
+    border: red 1px solid;
+} */
 
 
