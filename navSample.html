@@ -11,55 +11,31 @@
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
     <title>Joseph Widjaja</title>
 </head>
 
 <body>
 
-    <div class="container topNav">
-        <nav>
-            <div class="row">
-                <div class="col-3 headerTop">
-                    <h1>Joseph Widjaja</h1>
-                </div>
+    <nav id="nav-placeholder"></nav>
 
-                <div class="col-4">
+    <p>hello</p>
 
-                </div>
-
-                <div class="col-1">
-                    <a href="https://github.com/jwidjaja0" target="blank"><i class="fa fa-github"
-                            style="font-size:30px"></i></a>
-                </div>
-
-                <div class="col-4">
-                    <div class="row">
-                        <div class="col headerTop">
-                            <a href="portfolio.html">Projects</a>
-                        </div>
-
-                        <div class="col headerTop">
-                            <a href="projects.html">Resume</a>
-                        </div>
-
-                        <div class="col headerTop">
-                            <a href="projects.html">About Me</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </nav>
-
-
-    </div>
+    <script>
+        $(function () {
+            $("#nav-placeholder").load("nav.html");
+        });
+    </script>
 
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
         crossorigin="anonymous"></script>

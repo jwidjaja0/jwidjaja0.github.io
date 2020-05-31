@@ -18,15 +18,6 @@ a:hover{
     text-decoration: none;
 }
 
-.topNav{
-    background-color: rgb(216, 216, 216);
-    margin: auto;
-}
-
-.childNav{
-    margin: auto;
-}
-
 
 .icons{
     text-align: center;
@@ -48,10 +39,6 @@ a:hover{
     border-color: black;
     border-radius: 2px;
     border-style: solid;
-}
-
-.carousel {
-    height: 620px;
 }
 
 .descript{
