@@ -1,12 +1,8 @@
 h1{
-    /* color: red; */
     color: black;
     font-size: 28px;
 }
 
-h2{
-    margin-bottom: 45px;
-}
 
 a{
     font-size: 18px;
@@ -28,6 +24,5 @@ a:hover{
     border-radius: 2px;
     border-style: solid;
 }
-
 
 
